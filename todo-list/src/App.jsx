@@ -1,3 +1,4 @@
+import { TodoForm } from "./components/TodoForm/TodoForm";
 import styles from "./App.module.css";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
         <img className={styles.Logo} src="/to-do.png"/>
         <h2 className={styles.Title}>Todo List</h2>
       </header>
-      <div className={styles.AppContainer}>Content</div>
+      <div className={styles.AppContainer}><TodoForm /></div>
     </div>
   );
 }
